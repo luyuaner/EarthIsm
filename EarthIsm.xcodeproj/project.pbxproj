@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9BFFECD1FCB17D900A586A5 /* EarthIsm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9BFFECB1FCB17D900A586A5 /* EarthIsm.cpp */; };
+		F9BFFED11FCB19D200A586A5 /* SelfishIsm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9BFFECF1FCB19D200A586A5 /* SelfishIsm.cpp */; };
+		F9BFFED51FCB1ABE00A586A5 /* RealityIsm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9BFFED31FCB1ABE00A586A5 /* RealityIsm.cpp */; };
+		F9BFFEDA1FCB1BFC00A586A5 /* TerrorIsm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9BFFED81FCB1BFC00A586A5 /* TerrorIsm.cpp */; };
+		F9BFFEDD1FCB1CA500A586A5 /* FantasyIsm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9BFFEDB1FCB1CA500A586A5 /* FantasyIsm.cpp */; };
 		F9F48BF91FCB110A001E343B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9F48BF81FCB110A001E343B /* main.cpp */; };
-		F9F48C011FCB115B001E343B /* EarthIsm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9F48BFF1FCB115B001E343B /* EarthIsm.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +28,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F9BFFECB1FCB17D900A586A5 /* EarthIsm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EarthIsm.cpp; sourceTree = "<group>"; };
+		F9BFFECC1FCB17D900A586A5 /* EarthIsm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthIsm.h; sourceTree = "<group>"; };
+		F9BFFECF1FCB19D200A586A5 /* SelfishIsm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SelfishIsm.cpp; sourceTree = "<group>"; };
+		F9BFFED01FCB19D200A586A5 /* SelfishIsm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelfishIsm.h; sourceTree = "<group>"; };
+		F9BFFED31FCB1ABE00A586A5 /* RealityIsm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RealityIsm.cpp; sourceTree = "<group>"; };
+		F9BFFED41FCB1ABE00A586A5 /* RealityIsm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealityIsm.h; sourceTree = "<group>"; };
+		F9BFFED81FCB1BFC00A586A5 /* TerrorIsm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TerrorIsm.cpp; sourceTree = "<group>"; };
+		F9BFFED91FCB1BFC00A586A5 /* TerrorIsm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TerrorIsm.h; sourceTree = "<group>"; };
+		F9BFFEDB1FCB1CA500A586A5 /* FantasyIsm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FantasyIsm.cpp; sourceTree = "<group>"; };
+		F9BFFEDC1FCB1CA500A586A5 /* FantasyIsm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FantasyIsm.h; sourceTree = "<group>"; };
 		F9F48BF51FCB110A001E343B /* EarthIsm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EarthIsm; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F48BF81FCB110A001E343B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		F9F48BFF1FCB115B001E343B /* EarthIsm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EarthIsm.cpp; sourceTree = "<group>"; };
-		F9F48C001FCB115B001E343B /* EarthIsm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EarthIsm.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +53,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F9BFFECA1FCB17D900A586A5 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				F9BFFECB1FCB17D900A586A5 /* EarthIsm.cpp */,
+				F9BFFECC1FCB17D900A586A5 /* EarthIsm.h */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		F9BFFECE1FCB19B600A586A5 /* selfish */ = {
+			isa = PBXGroup;
+			children = (
+				F9BFFECF1FCB19D200A586A5 /* SelfishIsm.cpp */,
+				F9BFFED01FCB19D200A586A5 /* SelfishIsm.h */,
+			);
+			path = selfish;
+			sourceTree = "<group>";
+		};
+		F9BFFED21FCB1AAB00A586A5 /* reality */ = {
+			isa = PBXGroup;
+			children = (
+				F9BFFED31FCB1ABE00A586A5 /* RealityIsm.cpp */,
+				F9BFFED41FCB1ABE00A586A5 /* RealityIsm.h */,
+			);
+			path = reality;
+			sourceTree = "<group>";
+		};
+		F9BFFED61FCB1BEA00A586A5 /* fantasy */ = {
+			isa = PBXGroup;
+			children = (
+				F9BFFEDB1FCB1CA500A586A5 /* FantasyIsm.cpp */,
+				F9BFFEDC1FCB1CA500A586A5 /* FantasyIsm.h */,
+			);
+			path = fantasy;
+			sourceTree = "<group>";
+		};
+		F9BFFED71FCB1BEA00A586A5 /* terror */ = {
+			isa = PBXGroup;
+			children = (
+				F9BFFED81FCB1BFC00A586A5 /* TerrorIsm.cpp */,
+				F9BFFED91FCB1BFC00A586A5 /* TerrorIsm.h */,
+			);
+			path = terror;
+			sourceTree = "<group>";
+		};
 		F9F48BEC1FCB110A001E343B = {
 			isa = PBXGroup;
 			children = (
@@ -60,9 +117,12 @@
 		F9F48BF71FCB110A001E343B /* EarthIsm */ = {
 			isa = PBXGroup;
 			children = (
+				F9BFFED61FCB1BEA00A586A5 /* fantasy */,
+				F9BFFED71FCB1BEA00A586A5 /* terror */,
+				F9BFFED21FCB1AAB00A586A5 /* reality */,
+				F9BFFECE1FCB19B600A586A5 /* selfish */,
+				F9BFFECA1FCB17D900A586A5 /* core */,
 				F9F48BF81FCB110A001E343B /* main.cpp */,
-				F9F48BFF1FCB115B001E343B /* EarthIsm.cpp */,
-				F9F48C001FCB115B001E343B /* EarthIsm.h */,
 			);
 			path = EarthIsm;
 			sourceTree = "<group>";
@@ -124,8 +184,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9F48C011FCB115B001E343B /* EarthIsm.cpp in Sources */,
 				F9F48BF91FCB110A001E343B /* main.cpp in Sources */,
+				F9BFFECD1FCB17D900A586A5 /* EarthIsm.cpp in Sources */,
+				F9BFFED51FCB1ABE00A586A5 /* RealityIsm.cpp in Sources */,
+				F9BFFEDA1FCB1BFC00A586A5 /* TerrorIsm.cpp in Sources */,
+				F9BFFEDD1FCB1CA500A586A5 /* FantasyIsm.cpp in Sources */,
+				F9BFFED11FCB19D200A586A5 /* SelfishIsm.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
