@@ -28,6 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F9999C6B1FCDB03100B35328 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
 		F9BFFECB1FCB17D900A586A5 /* EarthIsm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EarthIsm.cpp; sourceTree = "<group>"; };
 		F9BFFECC1FCB17D900A586A5 /* EarthIsm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthIsm.h; sourceTree = "<group>"; };
 		F9BFFECF1FCB19D200A586A5 /* SelfishIsm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SelfishIsm.cpp; sourceTree = "<group>"; };
@@ -53,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F9999C6A1FCDB01000B35328 /* command */ = {
+			isa = PBXGroup;
+			children = (
+				F9999C6B1FCDB03100B35328 /* Define.h */,
+			);
+			path = command;
+			sourceTree = "<group>";
+		};
 		F9BFFECA1FCB17D900A586A5 /* core */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +126,7 @@
 		F9F48BF71FCB110A001E343B /* EarthIsm */ = {
 			isa = PBXGroup;
 			children = (
+				F9999C6A1FCDB01000B35328 /* command */,
 				F9BFFED61FCB1BEA00A586A5 /* fantasy */,
 				F9BFFED71FCB1BEA00A586A5 /* terror */,
 				F9BFFED21FCB1AAB00A586A5 /* reality */,

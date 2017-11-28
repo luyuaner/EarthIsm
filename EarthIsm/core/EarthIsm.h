@@ -12,12 +12,18 @@
 #ifndef EarthIsm_hpp
 #define EarthIsm_hpp
 
-#include <stdio.h>
+#include "Define.h"
 
 class EarthIsm {
 public:
     EarthIsm();
     ~EarthIsm();
+
+public:
+    //欺骗性(是所有派生类共有的属性）
+    string getCheat();
+
+private:
 };
 
 #endif /* EarthIsm_hpp */
