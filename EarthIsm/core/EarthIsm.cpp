@@ -16,12 +16,3 @@ EarthIsm::~EarthIsm()
 {
 
 }
-
-string EarthIsm::getCheat()
-{
-#if ENGLISH
-    return "cheat";
-#elif CHINESE
-    return "欺骗性";
-#endif
-}

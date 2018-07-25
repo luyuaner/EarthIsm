@@ -14,4 +14,14 @@
 
 #include "EarthIsm.h"
 
+class SelfishIsm : public EarthIsm {
+public:
+    SelfishIsm();
+    ~SelfishIsm();
+
+public:
+    //欺骗性(是所有派生类共有的属性）
+    string getCheat();
+};
+
 #endif /* SelfishIsm_hpp */

@@ -6,4 +6,13 @@
 //  Copyright © 2017年 EarthIsm. All rights reserved.
 //
 
-#include "FantasyIsm.h"
+#include "IdealIsm.h"
+
+IdealIsm::IdealIsm()
+{
+
+}
+IdealIsm::~IdealIsm()
+{
+
+}
